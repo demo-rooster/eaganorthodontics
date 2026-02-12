@@ -1,80 +1,57 @@
 {
   "enable_development_mode": false,
-  "company_name": "Tyska Alexander Orthodontics",
-  "domain": "taortho.com",
-  "email": "info@mandtortho.com",
+  "company_name": "Eagan Orthodontics, P.C.",
+  "domain": "eaganorthodontics.com",
+  "email": "info@eaganorthodontics.com",
   "phone": {
-    "number": "(716) 759-8323",
-    "href": "tel:+17167598323",
-    "aria": "7 1 6, 7 5 9, 8 3 2 3"
+    "number": "(248) 569-8770",
+    "href": "tel:+12485698770",
+    "aria": "2 4 8, 5 6 9, 8 7 7 0"
   },
   "location": [
     {
-      "title": "Clarence Office",
+      "title": "",
       "address": {
-        "street": "9650 Main Street",
-        "suite": "",
-        "city_state": "Clarence, NY 14031",
+        "street": "17600 W. Twelve Mile Rd.",
+        "suite": "Suite 4",
+        "city_state": "Southfield, MI 48076",
         "coordinates": {
-          "longitude": "-78.6314355",
-          "latitude": "42.9736638"
+          "longitude": "",
+          "latitude": ""
         }
       },
       "phone": {
-        "number": "(716) 759-8323",
-        "href": "tel:+17167598323"
+        "number": "(248) 569-8770",
+        "href": "tel:+12485698770"
       },
-      "email": "info@mandtortho.com",
+      "email": "info@eaganorthodontics.com",
       "hours": [
         {
           "day": "Monday",
-          "time": "8:30 am \t6:30 pm"
+          "time": "7:30 a.m. - 6:00 p.m."
         },
         {
           "day": "Tuesday",
-          "time": "8:30 am \t6:30 pm"
+          "time": "7:30 a.m. - 6:00 p.m."
         },
         {
           "day": "Wednesday",
-          "time": "8:00 am \t11:30 am"
+          "time": "7:30 a.m. - 5:30 p.m."
         },
         {
           "day": "Thursday",
-          "time": "8:00 am \t6:00 pm"
+          "time": "8:00 a.m. - 2:00 p.m."
         },
         {
           "day": "Friday",
-          "time": "8:00 am \t11:30 am"
+          "time": "Closed"
         }
       ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
+        "href": "https://www.google.com/maps/search/?api=1&query=17600+W.+Twelve+Mile+Rd.+Suite+4+Southfield+MI+48076",
         "label": "Get Directions"
       },
-      "special_note": ""
-    },
-    {
-      "title": "Tonawanda Office",
-      "address": {
-        "street": "1077 Delaware Rd",
-        "suite": "",
-        "city_state": "Tonawanda, NY 14223",
-        "coordinates": {
-          "longitude": "-78.8730228",
-          "latitude": "42.9901241"
-        }
-      },
-      "phone": {
-        "number": "(716) 875-0405",
-        "href": "tel:+17168750405"
-      },
-      "email": "info@mandtortho.com",
-      "hours": [],
-      "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=1077+Delaware+Rd+Tonawanda+NY+14223",
-        "label": "Get Directions"
-      },
-      "special_note": ""
+      "special_note": "Open one Saturday per month (except July & August) by appointment."
     }
   ],
   "typography": [
@@ -94,17 +71,17 @@
     "content_alignment": "right",
     "links": [
       {
-        "icon": "tooth-two-v1",
-        "text": "9650 Main Street, Clarence, NY 14031",
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "View 9650 Main Street, Clarence, NY 14031 on google maps",
+        "icon": "envelope",
+        "text": "17600 W. Twelve Mile Rd., Suite 4, Southfield, MI 48076",
+        "href": "https://www.google.com/maps/search/?api=1&query=17600+W.+Twelve+Mile+Rd.+Suite+4+Southfield+MI+48076",
+        "label": "View 17600 W. Twelve Mile Rd., Suite 4, Southfield, MI 48076 on google maps",
         "new_window": true
       },
       {
         "icon": "phone",
-        "text": "(716) 759-8323",
-        "href": "tel:+17167598323",
-        "label": "Call 7 1 6. 7 5 9. 8 3 2 3.",
+        "text": "(248) 569-8770",
+        "href": "tel:+12485698770",
+        "label": "Call (248) 569-8770",
         "new_window": false
       }
     ],
@@ -124,14 +101,14 @@
     "buttons": [
       {
         "button": {
-          "type": "nuxt",
+          "type": "anchor",
           "style": "primary",
           "label": "Schedule Consultation",
           "aria_label": "Schedule a consultation",
-          "href": "",
-          "path": "/contact",
-          "hash": "#form",
-          "external": false,
+          "href": "https://www.orthoscreening.com/screening/start?code=895JE5&sid=mljjr8eb-be444045-5917-awc6zmjgn&puid=be444045-5917-4fbd-8f22-88dd8ca5174f&step=0",
+          "path": "",
+          "hash": "",
+          "external": true,
           "include_icon": true,
           "icon": "tooth-two-v2",
           "color": "primary"
@@ -150,7 +127,7 @@
   "footer": {
     "social_media": [
       {
-        "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
+        "href": "https://www.youtube.com/channel/UCeuoXRhpQztYWgwRoz2nEdQ",
         "icon": "youtube"
       }
     ],
@@ -171,7 +148,9 @@
       "objectPosition": "",
       "forceAlt": "",
       "loading_mask": "",
-      "image_selection_hints": null
+      "image_selection_hints": {
+        "context_category": "Contact Hero"
+      }
     }
   }
 }
