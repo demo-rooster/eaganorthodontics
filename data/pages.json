@@ -14,14 +14,14 @@
         "hash": "#form",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
-        "color": "black"
+        "icon": "phone",
+        "color": "primary"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/141940695_Young_boy_looking_at_the_mirror_with_toothy_smile.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/141940695_Young_boy_looking_at_the_mirror_with_toothy_smile.webp",
-        "alt": "Patients and team smiling at Eagan Orthodontics office",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/99326519_Professional_dentist_office.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/99326519_Professional_dentist_office.webp",
+        "alt": "Patients smiling in the Eagan Orthodontics office",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -45,10 +45,7 @@
       "title": "Welcome to Eagan Orthodontics",
       "paragraphs": [
         {
-          "text": "Welcome to Eagan Orthodontics, P.C.! Thank you for visiting the website of a third‑generation orthodontic practice creating beautiful, confident smiles throughout the metropolitan Detroit area since 1955. Our dedicated team of highly qualified professionals works to determine the treatment solution best suited to your unique needs."
-        },
-        {
-          "text": "Dr. J. Victor Eagan and Dr. Javen Durham offer a wide variety of modern orthodontic options and use the latest advancements in care. We focus on comfortable experiences, clear communication, and results that fit your lifestyle."
+          "text": "Welcome to Eagan Orthodontics, a third‑generational orthodontic practice creating beautiful, confident smiles in the metropolitan Detroit area since 1955. Our dedicated team determines the best treatment solution for each patient and offers a wide variety of innovative treatment options (including Damon braces and clear aligners) using the latest orthodontic advancements."
         }
       ],
       "component_options": {
@@ -62,89 +59,29 @@
     },
     {
       "acf_fc_layout": "multi_item_row",
-      "title": "Why Choose Eagan Orthodontics",
+      "title": "Why Choose Us",
       "items": [
         {
-          "title": "Third-Generation Practice",
+          "title": "Family Legacy",
           "icon": "people",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.webp",
-            "alt": "Historic family orthodontic practice image",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/123039004_Happy_multi-generation_family_standing_outdoors.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/123039004_Happy_multi-generation_family_standing_outdoors.webp",
+            "alt": "",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "center",
+            "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "About Hero"
-            }
+            "image_selection_hints": null
           },
-          "text": "Creating beautiful smiles since 1955, our long family history gives patients confidence in experienced, community-rooted care.",
+          "text": "Third‑generation practice serving metro Detroit since 1955, carrying a long family tradition of orthodontic care.",
           "add_button": false,
           "button": {
-            "button_type": "nuxt_link",
-            "path": "/about",
-            "hash": "#history",
-            "href": "",
-            "label": "Learn More",
-            "aria": "Learn about our history"
-          }
-        },
-        {
-          "title": "Damon Braces",
-          "icon": "braces-together",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.webp",
-            "alt": "Damon self-ligating braces close-up",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "center",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
-          },
-          "text": "We offer the Damon self-ligating system for comfortable tooth movement with fewer adjustments for many patients.",
-          "add_button": false,
-          "button": {
-            "button_type": "nuxt_link",
-            "path": "/treatments",
-            "hash": "#damon-braces",
-            "href": "",
-            "label": "",
-            "aria": ""
-          }
-        },
-        {
-          "title": "In-House Financing",
-          "icon": "laptop-tooth",
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/186439743_dental_care_savings_concept_beautiful_smiling_woma.webp",
-            "alt": "Financial planning and patient-friendly payment options",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "center",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Flexible Payments"
-            }
-          },
-          "text": "In-house financing and patient-first payment options make treatment affordable and simple to manage.",
-          "add_button": false,
-          "button": {
-            "button_type": "nuxt_link",
-            "path": "/finance",
+            "button_type": "button",
+            "path": "",
             "hash": "",
             "href": "",
             "label": "",
@@ -152,29 +89,81 @@
           }
         },
         {
-          "title": "Family-Focused Care",
-          "icon": "schedule-tooth",
+          "title": "Advanced Options",
+          "icon": "braces-together",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/22144613_Hispanic_Family.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/22144613_Hispanic_Family.webp",
-            "alt": "Family-friendly orthodontic office environment",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/192367510_Invisible_dental_orthodontics.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/192367510_Invisible_dental_orthodontics.webp",
+            "alt": "",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
             "addLoader": false,
-            "objectPosition": "center",
+            "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Family friendly"
-            }
+            "image_selection_hints": null
           },
-          "text": "A family serving families approach, with care designed for children, teens, and adults and community events like Deband Day.",
+          "text": "Damon® self‑ligating braces and modern clear aligner options for more comfortable treatment and often fewer visits.",
           "add_button": false,
           "button": {
-            "button_type": "nuxt_link",
-            "path": "/about",
-            "hash": "#team",
+            "button_type": "button",
+            "path": "",
+            "hash": "",
+            "href": "",
+            "label": "",
+            "aria": ""
+          }
+        },
+        {
+          "title": "Flexible Financing",
+          "icon": "file-chart-tooth",
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/123911299_Male_hiker_holding_a_map_in_forest.webp",
+            "alt": "",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "text": "Patient‑focused in‑house financing and clear guidance to make orthodontic treatment affordable for families.",
+          "add_button": false,
+          "button": {
+            "button_type": "button",
+            "path": "",
+            "hash": "",
+            "href": "",
+            "label": "",
+            "aria": ""
+          }
+        },
+        {
+          "title": "Family Atmosphere",
+          "icon": "thumbs-up-tooth",
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/29456065_Hispanic_Father_Hugging_Kids.webp",
+            "alt": "",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
+          },
+          "text": "We are a family serving families, with patient testimonials and videos that highlight our caring, welcoming culture.",
+          "add_button": false,
+          "button": {
+            "button_type": "button",
+            "path": "",
+            "hash": "",
             "href": "",
             "label": "",
             "aria": ""
@@ -184,10 +173,10 @@
       "button": {
         "type": "nuxt",
         "style": "secondary",
-        "label": "Learn More",
-        "aria_label": "Learn more about our practice",
+        "label": "",
+        "aria_label": "",
         "href": "",
-        "path": "/about",
+        "path": "",
         "hash": "",
         "external": false,
         "include_icon": false,
@@ -214,14 +203,14 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Dr. J. Victor Eagan trained at the University of Michigan and Howard University School of Dentistry. A leader in orthodontics and part of the Eagan legacy, he brings decades of experience and state-of-the-art care to every patient, focusing on both function and confident appearance."
+          "text": "Dr. J. Victor Eagan leads the practice and has guided the Eagan Orthodontics legacy of “Creating Beautiful Smiles with Braces.” Son of Dr. John Eagan, Michigan’s first African American orthodontist, Dr. Eagan holds a DDS from the University of Michigan (with honors) and completed orthodontic specialty training at Howard University as valedictorian. He is active in the American Dental Association, the American Association of Orthodontists and local civic organizations, and is also an ordained minister and published author."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderaea2.jpg",
-        "webp": "",
-        "alt": "Dr. J. Victor Eagan, orthodontist at Eagan Orthodontics",
+        "src": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderbd92.jpg",
+        "webp": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderbd92.jpg",
+        "alt": "Dr. J. Victor Eagan, orthodontist",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -242,12 +231,12 @@
           "button": {
             "type": "nuxt",
             "style": "secondary",
-            "label": "Meet Dr. J. Victor Eagan",
-            "aria_label": "Learn about Dr. J. Victor Eagan",
+            "label": "Meet Dr. Eagan",
+            "aria_label": "Learn about Dr. Eagan",
             "href": "",
             "path": "/about",
             "hash": "#meet-the-doctor",
-            "external": false,
+            "external": true,
             "include_icon": false,
             "icon": "pencil",
             "color": "black"
@@ -282,14 +271,14 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Dr. Javen Durham completed his DDS at Meharry Medical College and orthodontic specialty training at Howard University. As the first third‑generation orthodontist in the Eagan family tradition, he brings fresh energy and advanced specialty training to patient care."
+          "text": "Dr. Javen Durham completed his DDS and orthodontic specialty training at Howard University and brings a modern perspective to the practice. Nephew of Dr. J. Victor Eagan and the first third‑generation African American orthodontist in the world, Dr. Durham continues the family tradition. He earned an undergraduate degree in Applied Physiology and Kinesiology from the University of Florida and enjoys outdoor adventures when not caring for patients."
         }
       ],
       "accordion": [],
       "image": {
         "src": "https://www.eaganorthodontics.com/resourcefiles/other/dr-javen-durham-241x25510b6.jpg",
-        "webp": "",
-        "alt": "Dr. Javen Durham, orthodontic specialist at Eagan Orthodontics",
+        "webp": "https://www.eaganorthodontics.com/resourcefiles/other/dr-javen-durham-241x25510b6.jpg",
+        "alt": "Dr. Javen Durham, orthodontist",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -310,12 +299,12 @@
           "button": {
             "type": "nuxt",
             "style": "secondary",
-            "label": "Meet Dr. Javen Durham",
-            "aria_label": "Learn about Dr. Javen Durham",
+            "label": "Meet Dr. Durham",
+            "aria_label": "Learn about Dr. Durham",
             "href": "",
             "path": "/about",
             "hash": "#meet-the-doctor",
-            "external": false,
+            "external": true,
             "include_icon": false,
             "icon": "pencil",
             "color": "black"
@@ -345,10 +334,10 @@
     },
     {
       "acf_fc_layout": "block_masonary_grid",
-      "title": "Main Treatments Overview",
+      "title": "Our Treatments",
       "paragraphs": [
         {
-          "text": "From Damon® self-ligating braces to clear aligners and retainers, we provide modern orthodontic solutions for children, teens, and adults."
+          "text": "We offer a full range of orthodontic care for children, teens and adults, including Damon® braces, traditional metal and ceramic options, and clear aligners."
         }
       ],
       "button": {
@@ -359,7 +348,7 @@
         "href": "",
         "path": "/treatments",
         "hash": "",
-        "external": false,
+        "external": true,
         "include_icon": false,
         "icon": "pencil",
         "color": "black"
@@ -369,9 +358,9 @@
       "items": [
         {
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/180646541_Healthy_smile_woman_with_clear_brackets.webp",
-            "alt": "Damon self-ligating braces",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/196907428.webp",
+            "alt": "Damon braces close-up",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -389,9 +378,49 @@
         },
         {
           "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.webp",
+            "alt": "Traditional metal braces",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Treatments Hero"
+            }
+          },
+          "title": "Metal Braces",
+          "path": "/treatments",
+          "hash": "#metal-braces"
+        },
+        {
+          "image": {
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513818_Clear_braces_-_invisible_brackets_for_teeth_straig.webp",
+            "alt": "Ceramic clear braces",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "center",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Treatments Hero"
+            }
+          },
+          "title": "Clear Braces",
+          "path": "/treatments",
+          "hash": "#clear-braces"
+        },
+        {
+          "image": {
             "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/127410354_Invisible_aligners_plastic_braces_dentistry.jpg",
             "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/127410354_Invisible_aligners_plastic_braces_dentistry.webp",
-            "alt": "Clear aligners for discreet orthodontic treatment",
+            "alt": "Clear aligners",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -406,46 +435,6 @@
           "title": "Clear Aligners",
           "path": "/treatments",
           "hash": "#clear-aligners"
-        },
-        {
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/40515651_teeth_with_retainer.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/40515651_teeth_with_retainer.webp",
-            "alt": "Orthodontic retainers for post-treatment stabilization",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "center",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Retention"
-            }
-          },
-          "title": "Retainers",
-          "path": "/treatments",
-          "hash": "#retainers"
-        },
-        {
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/49630490_Smiling_girl_holding_braces_for_teeth.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/49630490_Smiling_girl_holding_braces_for_teeth.webp",
-            "alt": "Orthognathic corrective jaw surgery coordination with orthodontics",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "center",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Surgery"
-            }
-          },
-          "title": "Orthognathic Surgery",
-          "path": "/treatments",
-          "hash": "#orthognathic-surgery"
         }
       ],
       "component_options": {
@@ -459,11 +448,11 @@
     },
     {
       "acf_fc_layout": "multi_item_testimonial",
-      "title": "Patient Testimonials",
+      "title": "What Our Patients Are Saying",
       "review_text": "Read More Reviews",
       "links": [
         {
-          "href": "https://www.youtube.com/channel/UCeuoXRhpQztYWgwRoz2nEdQ",
+          "href": "https://www.eaganorthodontics.com/patient/testimonials",
           "icon": "youtube",
           "color": "primary"
         }
@@ -471,7 +460,7 @@
       "testimonials": [
         {
           "author": "Farrita Jackson",
-          "testimonial": "\"I am a proud client at Eagan Orthodontics. I began wearing braces late in life... The first time I arrived in the door I was impressed with the beautiful décor and calming ambience... Dr.Eagan is very dedicated, involved and leading by example... Great job to Dr. Eagan and his staff!\" — Sincerely, Farrita Jackson"
+          "testimonial": "“I am a proud client at Eagan Orthodontics. The staff displays the same spiritual attitudes. Their welcoming once they see their clients is so genuine and make one feel so special. Great job to Dr. Eagan and his staff!”"
         }
       ],
       "component_options": {
@@ -481,8 +470,8 @@
         "hide_component": false
       },
       "has_background": true,
-      "background": "bg2",
-      "linear_gradient": "linear-gradient(0deg, #EFF6F8 0%, rgba(239, 246, 248, 0) 100%)"
+      "background": "bg1",
+      "linear_gradient": ""
     },
     {
       "acf_fc_layout": "multi_use_banner",
@@ -492,6 +481,10 @@
       "social_links": [
         {
           "href": "https://www.youtube.com/channel/UCeuoXRhpQztYWgwRoz2nEdQ",
+          "icon": "youtube"
+        },
+        {
+          "href": "https://www.youtube.com/watch?v=VE3W1PvZTA4",
           "icon": "youtube"
         }
       ],
@@ -520,9 +513,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/391155843_Group_of_young_people_using_and_looking_at_mobile.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/391155843_Group_of_young_people_using_and_looking_at_mobile.webp",
-        "alt": "Eagan Orthodontics social banner image",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/590658554_Group_of_multiracial_young_student_people_smiling.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/590658554_Group_of_multiracial_young_student_people_smiling.webp",
+        "alt": "Parents with kids relaxing in front of home",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -570,9 +563,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/449879230_Close_up_fun_young_smiling_happy_calm_woman_covere.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/449879230_Close_up_fun_young_smiling_happy_calm_woman_covere.webp",
-        "alt": "Family enjoying time together before orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -592,13 +585,13 @@
     {
       "seo": {
         "page_title": "Home - Eagan Orthodontics, P.C.",
-        "page_description": "Eagan Orthodontics, P.C. is a third‑generation orthodontic practice offering Damon braces, clear aligners, retainers and family-focused care in metropolitan Det",
-        "page_keywords": "Eagan Orthodontics, orthodontics, Damon braces, clear aligners, retainers, Detroit orthodontist, Dr. Eagan, Dr. Durham",
+        "page_description": "Eagan Orthodontics, P.C., a third-generation practice in Southfield, MI, offers Damon® braces, clear aligners and personalized orthodontic care since 1955.",
+        "page_keywords": "orthodontics, Damon braces, clear aligners, Southfield, orthodontist, Eagan Orthodontics",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Eagan Orthodontics, P.C. — Creating Confident Smiles Since 1955",
-            "description": "Third‑generation orthodontic care offering Damon braces, clear aligners, retainers and patient-first financing in metropolitan Detroit.",
+            "title": "Eagan Orthodontics, P.C.",
+            "description": "Third‑generation orthodontic care in metro Detroit offering Damon® braces, ceramic options and clear aligners with a family-focused approach.",
             "image": "https://www.eaganorthodontics.com/resourcefiles/other/slide019818.jpg"
           }
         }
@@ -618,7 +611,7 @@
         "href": "",
         "path": "/contact",
         "hash": "#form",
-        "external": false,
+        "external": true,
         "include_icon": false,
         "icon": "pencil",
         "color": "primary"
@@ -627,7 +620,7 @@
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/191531294_Medical_dentist_team_in_dental_office_discuss_abou.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/191531294_Medical_dentist_team_in_dental_office_discuss_abou.webp",
-        "alt": "Team of orthodontic professionals smiling in the Lakeshore Orthodontics office lobby",
+        "alt": "Historic and current team photo at Eagan Orthodontics",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -635,7 +628,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "About Hero"
+        }
       },
       "video": {
         "src": "",
@@ -646,19 +641,19 @@
     },
     {
       "acf_fc_layout": "block_text_simple",
-      "title": "Practice Mission Statement",
+      "title": "Our Mission",
       "paragraphs": [
         {
-          "text": "Thank you for visiting Eagan Orthodontics, a third‑generational orthodontic practice creating beautiful, confident smiles since 1955. Our dedicated team of highly‑qualified professionals is committed to determining which treatment solution is best suited for your specific orthodontic needs to deliver the ideal result."
+          "text": "Thank you for visiting Eagan Orthodontics. Founded in 1955, our third‑generation practice has spent decades creating healthy, confident smiles for families across the metropolitan Detroit area."
         },
         {
-          "text": "Dr. J. Victor Eagan and Dr. Javen Durham offer a wide variety of innovative treatment options and use the latest orthodontic advancements to deliver predictable, comfortable care for children, teens, and adults."
+          "text": "Our dedicated team combines experience with modern orthodontic techniques to recommend the right treatment for each patient. We focus on personalized care delivered in a warm, respectful environment."
         },
         {
-          "text": "We pride ourselves on combining clinical excellence with a warm, family-centered approach that makes every patient feel respected and informed throughout treatment."
+          "text": "We offer a full range of services, from traditional braces to advanced systems, using the latest orthodontic advancements to improve comfort, efficiency, and results."
         },
         {
-          "text": "From flexible scheduling to digital technology and multiple treatment options, we strive to make orthodontic care accessible and convenient so patients can confidently share their new smiles with the world."
+          "text": "Whether you’re a child, teen, or adult, our goal is the same: create beautiful smiles that support long‑term oral health while making care accessible and convenient for your family."
         }
       ],
       "component_options": {
@@ -680,8 +675,8 @@
       "paragraphs": [],
       "image": {
         "src": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderaea2.jpg",
-        "webp": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderaea2.jpg",
-        "alt": "Dr. J. Victor Eagan",
+        "webp": "",
+        "alt": "Dr. J. Victor Eagan smiling portrait",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -689,7 +684,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Experienced"
+        }
       },
       "has_buttons": false,
       "buttons": [],
@@ -698,16 +695,16 @@
           "header": "Professional",
           "paragraphs": [
             {
-              "text": "For Dr. J. Victor Eagan, orthodontics wasn't just an interest, it was in his blood. He began working in his father's office at age 10 and built a long career dedicated to creating healthy, confident smiles."
+              "text": "Dr. J. Victor Eagan, DDS, is a practicing orthodontist with a long family legacy in the specialty. He brings decades of clinical experience and a focus on using modern, state‑of‑the‑art equipment to deliver consistent, high‑quality care."
             },
             {
-              "text": "Dr. Eagan practices with state-of-the-art equipment and a long record of clinical excellence. He has served as an international speaker and author and has been widely recognized for his contributions to the profession."
+              "text": "Dr. Eagan is a member of the American Dental Association, National Dental Association, Great Lakes Association of Orthodontists, and the American Association of Orthodontists."
             }
           ],
           "image": {
-            "src": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderaea2.jpg",
-            "webp": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderaea2.jpg",
-            "alt": "Dr. J. Victor Eagan in office",
+            "src": "https://www.eaganorthodontics.com/resourcefiles/other/callout1.jpg",
+            "webp": "",
+            "alt": "Dr. Eagan with patient",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -715,23 +712,25 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "About Hero"
+            }
           }
         },
         {
           "header": "Education",
           "paragraphs": [
             {
-              "text": "Dr. Eagan completed his undergraduate training and D.D.S. with honors at the University of Michigan, then practiced general dentistry for eight years before pursuing specialty training in orthodontics."
+              "text": "Dr. Eagan completed his undergraduate studies and earned his Doctor of Dental Surgery with honors from the University of Michigan. After eight years in general dentistry, he pursued specialty training in orthodontics at Howard University School of Dentistry, graduating as valedictorian."
             },
             {
-              "text": "He earned his orthodontic specialty training at Howard University School of Dentistry, graduating as valedictorian."
+              "text": "His advanced training and long career have informed a thoughtful approach to treatment planning and an emphasis on lasting, healthy results."
             }
           ],
           "image": {
-            "src": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderaea2.jpg",
-            "webp": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderaea2.jpg",
-            "alt": "Dr. Eagan",
+            "src": "https://www.eaganorthodontics.com/resourcefiles/other/callout2.jpg",
+            "webp": "",
+            "alt": "Historical image representing Dr. Eagan's education and career",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -739,23 +738,25 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Experienced"
+            }
           }
         },
         {
-          "header": "Personal",
+          "header": "Honors & Personal",
           "paragraphs": [
             {
-              "text": "Outside the office Dr. Eagan serves as an ordained minister, continues to write and speak internationally, and manages several related business ventures with his wife, Catherine."
+              "text": "Dr. Eagan has been recognized with multiple honors, including Orthodontist of the Year (1996), the Jeann R. Vogt Celebration of Leadership Award (1997), an Outstanding Scientific Award (1998), and a Top Dentist recognition from HOUR Detroit (2009)."
             },
             {
-              "text": "He splits his time between Orchard Lake, Michigan and Boca Raton, Florida, and remains deeply involved in community and professional organizations."
+              "text": "Outside the practice, Dr. Eagan is an ordained minister, author, and international speaker. He lives with his wife, Catherine, and remains active in community and civic organizations."
             }
           ],
           "image": {
-            "src": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderaea2.jpg",
-            "webp": "https://www.eaganorthodontics.com/resourcefiles/other/dr-jve-no-borderaea2.jpg",
-            "alt": "Dr. Eagan smiling",
+            "src": "https://www.eaganorthodontics.com/resourcefiles/other/callout3.jpg",
+            "webp": "",
+            "alt": "Dr. Eagan receiving an award",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -763,12 +764,14 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Community"
+            }
           }
         }
       ],
       "component_options": {
-        "hash": "meet-dr-eagan",
+        "hash": "meet-the-doctor",
         "component_padding": "full",
         "component_margins": "half",
         "hide_component": false
@@ -790,8 +793,8 @@
       "paragraphs": [],
       "image": {
         "src": "https://www.eaganorthodontics.com/resourcefiles/other/300265-1767.jpg",
-        "webp": "https://www.eaganorthodontics.com/resourcefiles/other/300265-1767.jpg",
-        "alt": "Dr. Javen Durham",
+        "webp": "",
+        "alt": "Dr. Javen Durham portrait",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -799,25 +802,27 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Experienced"
+        }
       },
       "has_buttons": false,
       "buttons": [],
       "tabs": [
         {
-          "header": "Professional",
+          "header": "Education & Training",
           "paragraphs": [
             {
-              "text": "Dr. Javen Durham grew up working summers at Eagan Orthodontics and brings that lifelong connection to patient care into his professional practice."
+              "text": "Dr. Javen Durham earned his undergraduate degree in Applied Physiology and Kinesiology from the University of Florida and his Doctor of Dental Surgery from Meharry Medical College School of Dentistry in Nashville, TN."
             },
             {
-              "text": "He continues the Eagan family legacy of orthodontic excellence and works with patients of all ages to deliver individualized treatment plans."
+              "text": "He completed advanced specialty training in orthodontics at Howard University School of Dentistry in May 2022."
             }
           ],
           "image": {
-            "src": "https://www.eaganorthodontics.com/resourcefiles/other/300265-1767.jpg",
-            "webp": "https://www.eaganorthodontics.com/resourcefiles/other/300265-1767.jpg",
-            "alt": "Dr. Durham",
+            "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide019818.jpg",
+            "webp": "",
+            "alt": "Dr. Durham with patient",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -825,23 +830,22 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "About Hero"
+            }
           }
         },
         {
-          "header": "Education",
+          "header": "Specialty & Approach",
           "paragraphs": [
             {
-              "text": "Dr. Durham earned his undergraduate degree in Applied Physiology and Kinesiology from the University of Florida, his D.D.S. from Meharry Medical College School of Dentistry, and completed advanced specialty training in orthodontics at Howard University School of Dentistry in May 2022."
-            },
-            {
-              "text": "His training continues the family tradition of advanced orthodontic education at Howard University."
+              "text": "As the first third‑generation African American orthodontist in the world, Dr. Durham continues the family tradition of clinical excellence. He focuses on braces and modern orthodontic methods to create functional, long‑lasting smiles."
             }
           ],
           "image": {
-            "src": "https://www.eaganorthodontics.com/resourcefiles/other/300265-1767.jpg",
-            "webp": "https://www.eaganorthodontics.com/resourcefiles/other/300265-1767.jpg",
-            "alt": "Dr. Durham in office",
+            "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide022425.jpg",
+            "webp": "",
+            "alt": "Clinical treatment room",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -849,20 +853,22 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Treatments Hero"
+            }
           }
         },
         {
           "header": "Personal",
           "paragraphs": [
             {
-              "text": "Dr. Durham is noted as the first third‑generation African‑American orthodontist in the world and enjoys outdoor activities, travel, and adventurous pastimes outside the office."
+              "text": "When he’s not treating patients, Dr. Durham enjoys outdoor adventures and thrill‑seeking activities like skydiving and travel. He is eager to help continue the practice’s legacy of creating beautiful smiles."
             }
           ],
           "image": {
-            "src": "https://www.eaganorthodontics.com/resourcefiles/other/300265-1767.jpg",
-            "webp": "https://www.eaganorthodontics.com/resourcefiles/other/300265-1767.jpg",
-            "alt": "Dr. Durham smiling",
+            "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide0312db.jpg",
+            "webp": "",
+            "alt": "Dr. Durham outdoors",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -870,7 +876,9 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "All Ages"
+            }
           }
         }
       ],
@@ -892,16 +900,182 @@
       "preserve_image": true
     },
     {
+      "acf_fc_layout": "tabs",
+      "title": "Meet Dr. John P. Eagan",
+      "paragraphs": [],
+      "image": {
+        "src": "https://www.eaganorthodontics.com/ResourceFiles/other/article-twojohneaganpic9248.jpg",
+        "webp": "",
+        "alt": "Dr. John P. Eagan historical portrait",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Community"
+        }
+      },
+      "has_buttons": false,
+      "buttons": [],
+      "tabs": [
+        {
+          "header": "Founding Legacy",
+          "paragraphs": [
+            {
+              "text": "Dr. John P. Eagan graduated from Meharry School of Dentistry in 1952 and established the practice in Michigan in 1955, becoming the state’s first African American orthodontist."
+            },
+            {
+              "text": "His work laid the foundation for a family legacy in orthodontics that continues at Eagan Orthodontics today."
+            }
+          ],
+          "image": {
+            "src": "https://www.eaganorthodontics.com/resourcefiles/other/page-bg-1.jpg",
+            "webp": "",
+            "alt": "Historical timeline image",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "About Hero"
+            }
+          }
+        }
+      ],
+      "component_options": {
+        "hash": "founder",
+        "component_padding": "full",
+        "component_margins": "half",
+        "hide_component": false
+      },
+      "has_background": true,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "reverse": false,
+      "is_dynamic": false,
+      "large_title": false,
+      "large_image": false,
+      "title_alt": true,
+      "preserve_image": true
+    },
+    {
       "acf_fc_layout": "block_grid",
       "title": "Meet the Team",
       "items": [
         {
+          "name": "Deanna",
+          "position": "Scheduling Coordinator",
+          "bio": "Deanna coordinates appointments and helps families prepare for visits with clear, friendly guidance.",
+          "image": {
+            "src": "https://www.eaganorthodontics.com/ResourceFiles/other/deanna3927.jpg",
+            "webp": "",
+            "alt": "Deanna, Scheduling Coordinator",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Kid"
+            }
+          }
+        },
+        {
+          "name": "Sissy",
+          "position": "Financial Coordinator",
+          "bio": "Sissy manages financial arrangements and insurance questions with patience and clear explanations.",
+          "image": {
+            "src": "https://www.eaganorthodontics.com/ResourceFiles/other/sissy77c9.jpg",
+            "webp": "",
+            "alt": "Sissy, Financial Coordinator",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Flexible Payments"
+            }
+          }
+        },
+        {
+          "name": "Sandra",
+          "position": "Lab Coordinator",
+          "bio": "Sandra oversees appliance fabrication and ensures each custom device meets our quality standards.",
+          "image": {
+            "src": "https://www.eaganorthodontics.com/ResourceFiles/other/sandra0faa.jpg",
+            "webp": "",
+            "alt": "Sandra, Lab Coordinator",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Experienced"
+            }
+          }
+        },
+        {
+          "name": "Tina",
+          "position": "Clinical Team Leader",
+          "bio": "Tina leads clinical care, ensuring patients receive gentle, efficient treatment at every visit.",
+          "image": {
+            "src": "https://www.eaganorthodontics.com/ResourceFiles/other/tinaf55e.jpg",
+            "webp": "",
+            "alt": "Tina, Clinical Team Leader",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Experienced"
+            }
+          }
+        },
+        {
+          "name": "Gary",
+          "position": "Orthodontic Assistant",
+          "bio": "Gary supports clinical procedures and helps maintain the calm, welcoming atmosphere our patients appreciate.",
+          "image": {
+            "src": "https://www.eaganorthodontics.com/ResourceFiles/other/gary7d82.jpg",
+            "webp": "",
+            "alt": "Gary, Orthodontic Assistant",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": {
+              "context_category": "Experienced"
+            }
+          }
+        },
+        {
           "name": "Vicki",
           "position": "Executive Assistant",
-          "bio": "Executive Assistant who joined Eagan Orthodontics in 2009. She supports Dr. Eagan with administrative tasks and keeps the practice running smoothly while balancing family life and hobbies.",
+          "bio": "Vicki assists the practice with administrative leadership and patient communications; she joined the team in 2009.",
           "image": {
             "src": "https://www.eaganorthodontics.com/ResourceFiles/other/vicki981a.jpg",
-            "webp": "https://www.eaganorthodontics.com/ResourceFiles/other/vicki981a.jpg",
+            "webp": "",
             "alt": "Vicki, Executive Assistant",
             "aria_hidden": false,
             "bgColor": "",
@@ -910,43 +1084,9 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Gary",
-          "position": "Pastoral Support",
-          "bio": "Provides pastoral and pastoral-support services in the office, contributing to the practice atmosphere and offering intercessory prayer and emotional support to patients and staff.",
-          "image": {
-            "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide05211b.jpg",
-            "webp": "https://www.eaganorthodontics.com/resourcefiles/other/slide05211b.jpg",
-            "alt": "Office pastoral support and team",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
-          }
-        },
-        {
-          "name": "Office Team",
-          "position": "Clinical & Administrative Staff",
-          "bio": "A skilled, friendly team of clinicians and coordinators who support patients through every phase of treatment, from initial consult to retention.",
-          "image": {
-            "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide05211b.jpg",
-            "webp": "https://www.eaganorthodontics.com/resourcefiles/other/slide05211b.jpg",
-            "alt": "Eagan Orthodontics team photo",
-            "aria_hidden": false,
-            "bgColor": "",
-            "imageBackground": false,
-            "addLoader": false,
-            "objectPosition": "",
-            "forceAlt": "",
-            "loading_mask": "",
-            "image_selection_hints": null
+            "image_selection_hints": {
+              "context_category": "Experienced"
+            }
           }
         }
       ],
@@ -959,20 +1099,32 @@
       "has_bio": true,
       "large_title": false,
       "center_title": false,
-      "background": "bg1",
+      "background": "bg2",
       "add_texture": false,
       "linear_gradient": "",
       "preserve_image": true
     },
     {
       "acf_fc_layout": "single_image_slider",
-      "title": "Office Tour Photos",
+      "title": "Our Office",
       "carousel_aria": "Office Tour Carousel",
       "slides": [
         {
+          "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide019818.jpg",
+          "webp": "",
+          "alt": "Office lobby seating area",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
           "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide022425.jpg",
-          "webp": "https://www.eaganorthodontics.com/resourcefiles/other/slide022425.jpg",
-          "alt": "Office interior and waiting area",
+          "webp": "",
+          "alt": "Treatment room with patient chair",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -983,8 +1135,8 @@
         },
         {
           "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide0312db.jpg",
-          "webp": "https://www.eaganorthodontics.com/resourcefiles/other/slide0312db.jpg",
-          "alt": "Treatment room with modern equipment",
+          "webp": "",
+          "alt": "Office clinical area",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -995,8 +1147,20 @@
         },
         {
           "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide048464.jpg",
-          "webp": "https://www.eaganorthodontics.com/resourcefiles/other/slide048464.jpg",
-          "alt": "Office common area and patient seating",
+          "webp": "",
+          "alt": "Reception and front desk",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide05211b.jpg",
+          "webp": "",
+          "alt": "Patient care area",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -1007,8 +1171,8 @@
         },
         {
           "src": "https://www.eaganorthodontics.com/resourcefiles/other/slide06004b.jpg",
-          "webp": "https://www.eaganorthodontics.com/resourcefiles/other/slide06004b.jpg",
-          "alt": "Treatment chair and equipment",
+          "webp": "",
+          "alt": "Office exterior and signage",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -1018,9 +1182,21 @@
           "loading_mask": "#eef6f8"
         },
         {
-          "src": "https://www.eaganorthodontics.com/ResourceFiles/other/h-braces143c4.jpg",
-          "webp": "https://www.eaganorthodontics.com/ResourceFiles/other/h-braces143c4.jpg",
-          "alt": "Orthodontic care illustration",
+          "src": "https://www.eaganorthodontics.com/resourcefiles/other/callout1.jpg",
+          "webp": "",
+          "alt": "Office callout image",
+          "aria_hidden": false,
+          "bgColor": "",
+          "imageBackground": false,
+          "addLoader": false,
+          "objectPosition": "",
+          "forceAlt": "",
+          "loading_mask": "#eef6f8"
+        },
+        {
+          "src": "https://www.eaganorthodontics.com/resourcefiles/other/callout2.jpg",
+          "webp": "",
+          "alt": "Facility callout image",
           "aria_hidden": false,
           "bgColor": "",
           "imageBackground": false,
@@ -1049,19 +1225,19 @@
         {
           "has_heading": false,
           "heading": "",
-          "text": "Dr. Eagan and the practice are active in many local civic and community organizations. The practice’s history as a multi‑generational office and the doctors’ community honors reflect long‑standing involvement and service."
+          "text": "Eagan Orthodontics has a long history of civic leadership and community engagement. The practice supports local events and partners with organizations to give back to the communities we serve."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "Event highlights include celebrations like Deband Day, when patients have braces removed and the office hosts a small party. The practice also participates in local awards and community recognition events."
+          "text": "We host patient events like Deband Day, a monthly celebration for patients who complete braces treatment. These events are a joyful way to mark progress and welcome families into our practice community."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/580054413_holding_hands_for_strong_teamwork_and_volunteer_to.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/580054413_holding_hands_for_strong_teamwork_and_volunteer_to.webp",
-        "alt": "Graphic representing community support by Lakeshore Orthodontics",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/623156743_At_the_doctors_appointment_The_child_sits_in_the_d.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/623156743_At_the_doctors_appointment_The_child_sits_in_the_d.webp",
+        "alt": "Deband Day event with smiling patients",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1069,7 +1245,9 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": null
+        "image_selection_hints": {
+          "context_category": "Community"
+        }
       },
       "video": {
         "type": "embedded",
@@ -1082,7 +1260,7 @@
         "component_margins": "none",
         "hide_component": false
       },
-      "reverse": false,
+      "reverse": true,
       "has_buttons": false,
       "has_accordion": false,
       "is_dynamic": false,
@@ -1127,9 +1305,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48850703_Teenage_girl_happy_to_visit_the_dentist.webp",
-        "alt": "Family enjoying time together before orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/183240584_Doctor_and_patient_shaking_hands.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/183240584_Doctor_and_patient_shaking_hands.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1148,15 +1326,15 @@
     },
     {
       "seo": {
-        "page_title": "About | Eagan Orthodontics",
-        "page_description": "Learn about Eagan Orthodontics, a third‑generation practice delivering personalized orthodontic care with experienced doctors and a dedicated team.",
-        "page_keywords": "Eagan Orthodontics, Orthodontist, Braces, Office Tour, Dr. J. Victor Eagan, Dr. Javen Durham",
+        "page_title": "About Us | Eagan Orthodontics",
+        "page_description": "Learn about Eagan Orthodontics' legacy since 1955, our experienced doctors, and our commitment to modern, patient-centered orthodontic care.",
+        "page_keywords": "Eagan Orthodontics, orthodontist, braces, Southfield, Dr. J. Victor Eagan, Dr. Javen Durham",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "About | Eagan Orthodontics",
-            "description": "Learn about Eagan Orthodontics, a third‑generation practice delivering personalized orthodontic care with experienced doctors and a dedicated team.",
-            "image": "https://www.eaganorthodontics.com/resourcefiles/other/slide022425.jpg"
+            "title": "About Us | Eagan Orthodontics",
+            "description": "Learn about Eagan Orthodontics' legacy since 1955, our experienced doctors, and our commitment to modern, patient-centered orthodontic care.",
+            "image": "https://www.eaganorthodontics.com/resourcefiles/other/slide019818.jpg"
           }
         }
       }
@@ -1182,9 +1360,9 @@
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/211023264_Portrait_Of_Smiling_Male_And_Female_Dentists_At_Cl.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/211023264_Portrait_Of_Smiling_Male_And_Female_Dentists_At_Cl.webp",
-        "alt": "Welcoming orthodontic team greeting a family in a bright modern office, patient-first environment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/258870461_Happy_girl_and_her_dad_during_a_dental_appointment.webp",
+        "alt": "Smiling family welcomed at Lakeshore Orthodontics front desk",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1205,24 +1383,24 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Your first visit",
+      "title": "Virtual Appointment",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Your first visit is complimentary and includes a thorough orthodontic examination and discussion of potential treatment options. If indicated, we may reserve time after the exam for diagnostic records such as X-rays, intraoral photos, and impressions for study models; that additional visit can take approximately one hour."
+          "text": "Receive a Virtual Appointment from Eagan Orthodontics. Available for new and existing patients: fill out a simple form, upload a few photos, and our team will review your case and get back to you with next steps."
         },
         {
           "has_heading": false,
           "heading": "",
-          "text": "During the initial exam the doctor will evaluate whether orthodontics can help, whether treatment is needed now or should be delayed, which procedures may be used, whether any permanent teeth should be removed, estimated treatment length, cost, and available payment options. To help us estimate benefits, please bring any panoramic X-ray taken within the past six months and your orthodontic insurance card if applicable."
+          "text": "Powered by Orthodontic Screening, the virtual consult is fast and convenient — a great way to begin your treatment without an office visit."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211022837_Portrait_Of_Smiling_Dentist_And_Teenage_Girl_In_Cl.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211022837_Portrait_Of_Smiling_Dentist_And_Teenage_Girl_In_Cl.webp",
-        "alt": "Orthodontist consulting with a patient about braces in a modern treatment room",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/407409610_young_beautiful_caucasian_woman_wearing_blue_knitt.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/407409610_young_beautiful_caucasian_woman_wearing_blue_knitt.webp",
+        "alt": "Father with daughter at reception of dentist's surgery",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1235,10 +1413,26 @@
         }
       },
       "video": {
-        "type": "embedded",
+        "type": "file",
         "src": ""
       },
-      "buttons": [],
+      "buttons": [
+        {
+          "button": {
+            "type": "anchor",
+            "style": "secondary",
+            "label": "Start Your Virtual Appointment",
+            "aria_label": "start virtual appointment",
+            "href": "https://www.orthoscreening.com/screening/start?code=895JE5&sid=mljjr8eb-be444045-5917-awc6zmjgn&puid=be444045-5917-4fbd-8f22-88dd8ca5174f&step=0",
+            "path": "",
+            "hash": "",
+            "external": true,
+            "include_icon": false,
+            "icon": "tooth-outline",
+            "color": "black"
+          }
+        }
+      ],
       "component_options": {
         "hash": "",
         "component_padding": "half",
@@ -1246,7 +1440,7 @@
         "hide_component": false
       },
       "reverse": false,
-      "has_buttons": false,
+      "has_buttons": true,
       "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
@@ -1255,22 +1449,19 @@
       "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
-      "large_title": true,
+      "large_title": false,
       "title_color": "text",
       "title_underline_color": "none"
     },
     {
       "acf_fc_layout": "block_text_simple",
-      "title": "Payment & Insurance",
+      "title": "Foods to Avoid",
       "paragraphs": [
         {
-          "text": "We offer a variety of payment options and financing plans to fit your budget, including in-house financing when appropriate. Our team will review choices with you and explain them thoroughly so you understand your options."
+          "text": "While you are wearing braces, avoid hard foods, sticky foods, and anything high in sugar. Hard and crunchy items can break brackets or bend wires; sticky candies and caramels can get caught under wires and pull brackets off."
         },
         {
-          "text": "Insurance: if your policy includes orthodontic benefits you will receive reduced personal costs. Many plans have a lifetime orthodontic benefit separate from regular dental coverage; policies vary, so we will review your insurance and file claims on your behalf once treatment begins."
-        },
-        {
-          "text": "The initial consultation and first visit are complimentary. If you have questions about financing or need help selecting a payment plan, ask our treatment coordinator and we will work to accommodate your needs."
+          "text": "Cut crunchy fruits and vegetables into small pieces, skip gum and hard candies, and limit sugary drinks. Check your braces regularly for loose wires or brackets, and call us if you notice damage. Start your Virtual Appointment: Click Here!"
         }
       ],
       "component_options": {
@@ -1288,24 +1479,19 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "New patient forms",
+      "title": "Appointment Request",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "We use online forms to make your first visit faster and more secure. Please complete the appropriate new patient information before your appointment so we can provide safe, personalized care."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Online forms: Child New Patient Information and Adult New Patient Information (the adult form includes a full medical and dental history). The practice uses web forms rather than exposed PDF downloads on the public site."
+          "text": "Thank you for your interest in Eagan Orthodontics. Please complete the appointment request form with your contact details and preferred days/times. A team member will reach out to confirm your appointment and answer any questions."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/232435916_Electronic_medical_record_with_patient_data_and_he.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/232435916_Electronic_medical_record_with_patient_data_and_he.webp",
-        "alt": "Patient completing new patient information on a tablet in a bright orthodontic office",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/285911421_Client_of_private_dentistry_smiling_while_singing.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/285911421_Client_of_private_dentistry_smiling_while_singing.webp",
+        "alt": "Patient filling out orthodontic health history forms online",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1314,11 +1500,11 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "New Patients Hero"
+          "context_category": "Contact Hero"
         }
       },
       "video": {
-        "type": "embedded",
+        "type": "file",
         "src": ""
       },
       "buttons": [
@@ -1326,29 +1512,29 @@
           "button": {
             "type": "anchor",
             "style": "secondary",
-            "label": "Child New Patient Information",
-            "aria_label": "child new patient information",
-            "href": "https://www.eaganorthodontics.com/patient/patient-forms/child",
+            "label": "Start Your Virtual Appointment",
+            "aria_label": "start virtual appointment",
+            "href": "https://www.orthoscreening.com/screening/start?code=895JE5&sid=mljjr8eb-be444045-5917-awc6zmjgn&puid=be444045-5917-4fbd-8f22-88dd8ca5174f&step=0",
             "path": "",
             "hash": "",
             "external": true,
             "include_icon": false,
-            "icon": "envelope",
+            "icon": "tooth-two-v1",
             "color": "black"
           }
         },
         {
           "button": {
-            "type": "anchor",
+            "type": "nuxt",
             "style": "secondary",
-            "label": "Adult New Patient Information",
-            "aria_label": "adult new patient information",
-            "href": "https://www.eaganorthodontics.com/patient/patient-forms/adult",
-            "path": "",
+            "label": "Request an Appointment",
+            "aria_label": "request an appointment",
+            "href": "",
+            "path": "/contact",
             "hash": "",
-            "external": true,
+            "external": false,
             "include_icon": false,
-            "icon": "envelope",
+            "icon": "pencil",
             "color": "black"
           }
         }
@@ -1404,9 +1590,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/99326519_Professional_dentist_office.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/99326519_Professional_dentist_office.webp",
-        "alt": "Family enjoying time together before orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1426,14 +1612,14 @@
     {
       "seo": {
         "page_title": "Get Started | Eagan Orthodontics",
-        "page_description": "Start your journey with a complimentary consultation at Eagan Orthodontics. Learn what to expect at your first visit, access new patient forms, and schedule an ",
-        "page_keywords": "orthodontics, first visit, new patient forms, financing, Eagan Orthodontics",
+        "page_description": "Begin at Eagan Orthodontics: request appointments, complete new-patient forms, review first-visit steps, or start a virtual consult today.",
+        "page_keywords": "Eagan Orthodontics, virtual appointment, new patient, appointment request, forms, foods to avoid",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "Get Started | Eagan Orthodontics",
-            "description": "Start your journey with a complimentary consultation at Eagan Orthodontics. Learn what to expect at your first visit, access new patient forms, and schedule an ",
-            "image": "https://www.eaganorthodontics.com/resourcefiles/other/slide019818.jpg"
+            "description": "Begin at Eagan Orthodontics: request appointments, complete new-patient forms, review first-visit steps, or start a virtual consult today.",
+            "image": "https://d25xczrsvvsqdg.cloudfront.net/bvweyes-blog-hero-2.jpg"
           }
         }
       }
@@ -1454,14 +1640,14 @@
         "hash": "#form",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
+        "icon": "phone",
         "color": "black"
       },
       "media_type": "image",
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/16042402_opened_mouth_and_dentists_hands_with_instruments.webp",
-        "alt": "Orthodontic treatment background image",
+        "alt": "Smiling family enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1482,224 +1668,19 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Early Treatment",
+      "title": "Metal Braces",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "The American Association of Orthodontists recommends a screening around age 7. Early evaluation lets us watch growth and start treatment when it will be most effective."
-        }
-      ],
-      "accordion": [
-        {
-          "header": "When to start",
-          "paragraphs": [
-            {
-              "text": "An initial check at about age 7 helps us spot jaw or tooth problems early. We often monitor growth and only begin treatment when it will guide development best."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/74211947_happy_teenage_girl_wearing_braces.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/74211947_happy_teenage_girl_wearing_braces.webp",
-            "alt": "Example of crossbite in a young patient",
-            "image_selection_hints": {
-              "context_category": "Initial Visit"
-            }
-          }
-        },
-        {
-          "header": "What it corrects",
-          "paragraphs": [
-            {
-              "text": "Early treatment can address severe crossbite, significant crowding, protruding front teeth, abnormal jaw growth, and habits like thumb sucking or tongue thrusting."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.webp",
-            "alt": "Example of dental crowding",
-            "image_selection_hints": {
-              "context_category": "All Ages"
-            }
-          }
-        },
-        {
-          "header": "Benefits",
-          "paragraphs": [
-            {
-              "text": "Starting early can shorten or simplify later treatment, reduce the chance of surgery, protect front teeth from injury, and guide jaw development for better long term results."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/56224358_Pretty_girl_wearing_headgear.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/56224358_Pretty_girl_wearing_headgear.webp",
-            "alt": "Example of protruding front teeth",
-            "image_selection_hints": {
-              "context_category": "Kid"
-            }
-          }
-        }
-      ],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/29222435_Cute_Latino_Girl_Smiling_with_Braces.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/29222435_Cute_Latino_Girl_Smiling_with_Braces.webp",
-        "alt": "Thumb sucking habit example and its effects",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Kid friendly"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "early-treatment",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": true,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Adult Treatment",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "There is no upper age limit for orthodontic treatment. Healthy teeth can be moved at any age, though planning must consider gum health and existing dental work."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Many adults choose discreet options that fit work and social life while improving alignment, bite function, and confidence."
+          "text": "Metal braces remain a reliable, cost-effective choice. Modern brackets are smaller and more comfortable than in the past, and they consistently deliver predictable tooth movement for children, teens, and adults."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.webp",
-        "alt": "Adult orthodontic care example",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Adult"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "adult-treatment",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": true,
-      "has_buttons": false,
-      "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Types of Braces",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Braces use brackets bonded to teeth and an archwire that applies gentle, continuous force to move teeth into place. Options include traditional metal and tooth colored ceramic brackets."
-        }
-      ],
-      "accordion": [
-        {
-          "header": "Treatment timeline",
-          "paragraphs": [
-            {
-              "text": "Active treatment commonly ranges from about 6 to 30 months depending on complexity. Most patients visit every 5 to 10 weeks for adjustments."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.webp",
-            "alt": "Traditional metal braces example",
-            "image_selection_hints": {
-              "context_category": "Teen"
-            }
-          }
-        },
-        {
-          "header": "What to expect",
-          "paragraphs": [
-            {
-              "text": "Expect bracket placement, periodic wire changes or adjustments, possible use of elastics or auxiliary appliances, temporary soreness after visits, and careful oral hygiene. Retainers are fitted after active treatment."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1434442_happy_teen_girl_smiling.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1434442_happy_teen_girl_smiling.webp",
-            "alt": "Ceramic clear braces example",
-            "image_selection_hints": {
-              "context_category": "Teen"
-            }
-          }
-        },
-        {
-          "header": "Special systems",
-          "paragraphs": [
-            {
-              "text": "Some systems, such as self ligating brackets, aim to reduce friction and may shorten adjustment time for certain cases."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/175198219_Woman_in_braces.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/175198219_Woman_in_braces.webp",
-            "alt": "Damon self-ligating bracket system example",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
-          }
-        }
-      ],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/48486569_teeth_with_braces.webp",
-        "alt": "Braces treatment example",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/25182244_Pretty_girl_wearing_braces_smiling_cheerfully.webp",
+        "alt": "Close-up of traditional metal braces on teeth",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1717,18 +1698,18 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "braces",
+        "hash": "metal-braces",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
       },
       "reverse": false,
       "has_buttons": false,
-      "has_accordion": true,
+      "has_accordion": false,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
-      "has_background": true,
+      "has_background": false,
       "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
@@ -1738,24 +1719,70 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Clear Aligners",
+      "title": "Ceramic Braces",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Clear aligner treatment uses a planned series of removable, transparent trays that move teeth incrementally. Trays are typically changed about every two weeks and are planned with digital software."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Many teens and adults with mild to moderate alignment issues are candidates. Good compliance, wearing aligners about 22 hours per day, is essential for success."
+          "text": "Ceramic brackets blend with your tooth color for a less noticeable appearance. They offer an aesthetic option for patients who want effective treatment with a softer visual profile."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024714_Beautiful_Patient_Holding_Clear_Orthodontic_Aligne.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024714_Beautiful_Patient_Holding_Clear_Orthodontic_Aligne.webp",
-        "alt": "Clear aligner trays example",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1434442_happy_teen_girl_smiling.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1434442_happy_teen_girl_smiling.webp",
+        "alt": "Patient smiling with ceramic braces",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Teen"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "ceramic-braces",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Self‑ligating (Damon System)",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Self-ligating brackets use a built-in mechanism instead of elastic ties, which can reduce friction and the need for frequent adjustments. Systems like Damon may help shorten appointments and improve comfort for many patients."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/40515651_teeth_with_retainer.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/40515651_teeth_with_retainer.webp",
+        "alt": "Damon self-ligating braces components",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1773,7 +1800,58 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "invisalign",
+        "hash": "self-ligating-damon-system",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Clear Aligners",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Clear aligners are removable trays that progressively move teeth with a series of custom-fitted appliances. They offer a discreet option that lets you brush and eat without bracket restrictions."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024688_Woman_Wearing_Clear_Aligner_In_Dental_Clinic.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024688_Woman_Wearing_Clear_Aligner_In_Dental_Clinic.webp",
+        "alt": "Clear aligner tray held by hand",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Adult"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "clear-aligners",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
@@ -1794,24 +1872,19 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Orthognathic Surgery",
+      "title": "Clear Aligners for Teens",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Jaw surgery may be needed for major skeletal problems that affect chewing, speech, breathing, or severe bite discrepancies that cannot be corrected with orthodontics alone."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "We use computerized planning and digital imaging to coordinate pre surgical and post surgical orthodontics with oral and maxillofacial surgeons for predictable function and aesthetic outcomes."
+          "text": "Aligner systems designed for teens include features such as compliance indicators and replacement options. They can be an excellent, nearly invisible choice when consistent wear is maintained."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513837_Metal_brackets_-_tooth_aligners_on_a_model_jaw_whi.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/135513837_Metal_brackets_-_tooth_aligners_on_a_model_jaw_whi.webp",
-        "alt": "Orthognathic surgical care illustration",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/163056473_Glad_girl_using_orthodontic_device_for_adjusting_t.webp",
+        "alt": "Teen showing a clear aligner",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1820,7 +1893,7 @@
         "forceAlt": "",
         "loading_mask": "",
         "image_selection_hints": {
-          "context_category": "Surgery"
+          "context_category": "Kid"
         }
       },
       "video": {
@@ -1829,7 +1902,7 @@
       },
       "buttons": [],
       "component_options": {
-        "hash": "orthognathic-surgery",
+        "hash": "clear-aligners-teens",
         "component_padding": "half",
         "component_margins": "none",
         "hide_component": false
@@ -1840,7 +1913,7 @@
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
-      "has_background": true,
+      "has_background": false,
       "background": "bg1",
       "linear_gradient": "",
       "add_texture": false,
@@ -1850,24 +1923,121 @@
     },
     {
       "acf_fc_layout": "image_text",
-      "title": "Retention",
+      "title": "Lingual Braces",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Retainers maintain your new smile. Options include Hawley retainers with acrylic and wire, clear aligner style retainers, and fixed bonded retainers for higher relapse risk."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Wear typically moves from full time for several months to night only, then occasional nights as directed. Lifelong night wear may be recommended for some patients."
+          "text": "Lingual braces are bonded to the back surfaces of the teeth so they are not visible from the front. They provide a fully hidden fixed option, though they can be more challenging to adapt to and may cost more than traditional braces."
         }
       ],
       "accordion": [],
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/62056177_Hand_holding_a_translucent_upper_essix_retainer.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/62056177_Hand_holding_a_translucent_upper_essix_retainer.webp",
-        "alt": "Types of orthodontic retainers",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/81317876_Braces_Teeth_Female_Smile.webp",
+        "alt": "Illustration of lingual braces attached behind teeth",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Adult"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "lingual-braces",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": true,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Palatal Expanders",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Palatal expanders gently widen the upper jaw when growth is favorable, helping to correct crossbites and create space for crowded teeth. Early use can reduce the need for more complex treatment later."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/29222435_Cute_Latino_Girl_Smiling_with_Braces.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/29222435_Cute_Latino_Girl_Smiling_with_Braces.webp",
+        "alt": "Palatal expander in a patient's mouth",
+        "aria_hidden": false,
+        "bgColor": "",
+        "imageBackground": false,
+        "addLoader": false,
+        "objectPosition": "",
+        "forceAlt": "",
+        "loading_mask": "",
+        "image_selection_hints": {
+          "context_category": "Kid"
+        }
+      },
+      "video": {
+        "type": "embedded",
+        "src": ""
+      },
+      "buttons": [],
+      "component_options": {
+        "hash": "palatal-expanders",
+        "component_padding": "half",
+        "component_margins": "none",
+        "hide_component": false
+      },
+      "reverse": false,
+      "has_buttons": false,
+      "has_accordion": false,
+      "is_dynamic": false,
+      "use_video": false,
+      "large_image": false,
+      "has_background": false,
+      "background": "bg1",
+      "linear_gradient": "",
+      "add_texture": false,
+      "large_title": false,
+      "title_color": "text",
+      "title_underline_color": "none"
+    },
+    {
+      "acf_fc_layout": "image_text",
+      "title": "Retention (Retainers)",
+      "paragraphs": [
+        {
+          "has_heading": false,
+          "heading": "",
+          "text": "Retention is the final phase that protects your new smile. We provide custom retainers — removable Hawley-style, clear aligner-type, or bonded fixed retainers — and clear guidance on wear and care to help keep results long term."
+        }
+      ],
+      "accordion": [],
+      "image": {
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024714_Beautiful_Patient_Holding_Clear_Orthodontic_Aligne.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/211024714_Beautiful_Patient_Holding_Clear_Orthodontic_Aligne.webp",
+        "alt": "Various types of orthodontic retainers displayed",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -1881,7 +2051,7 @@
       },
       "video": {
         "type": "embedded",
-        "src": ""
+        "src": "https://fast.wistia.net/embed/iframe/lpbpyde3dx?popover=true"
       },
       "buttons": [],
       "component_options": {
@@ -1893,79 +2063,6 @@
       "reverse": true,
       "has_buttons": false,
       "has_accordion": false,
-      "is_dynamic": false,
-      "use_video": false,
-      "large_image": false,
-      "has_background": false,
-      "background": "bg1",
-      "linear_gradient": "",
-      "add_texture": false,
-      "large_title": false,
-      "title_color": "text",
-      "title_underline_color": "none"
-    },
-    {
-      "acf_fc_layout": "image_text",
-      "title": "Advanced Technology",
-      "paragraphs": [
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "We use digital imaging, radiographs, photographic records, study models, and computerized treatment planning to improve precision and predictability across treatments and surgical cases."
-        },
-        {
-          "has_heading": false,
-          "heading": "",
-          "text": "Clear aligner therapy and surgical planning are designed with specialized software so you can see a virtual plan of expected movements before treatment begins."
-        }
-      ],
-      "accordion": [
-        {
-          "header": "Digital records",
-          "paragraphs": [
-            {
-              "text": "High quality X rays and intraoral photos help us diagnose and plan efficient treatment while minimizing radiation when possible."
-            }
-          ],
-          "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/1120060139_A_3D_dental_model_displayed_on_a_computer_screen_h.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/1120060139_A_3D_dental_model_displayed_on_a_computer_screen_h.webp",
-            "alt": "Orthodontic digital planning illustration",
-            "image_selection_hints": {
-              "context_category": "Technology"
-            }
-          }
-        }
-      ],
-      "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/271991695_Young_woman_ready_to_computer_3d_tomography_of_tee.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/271991695_Young_woman_ready_to_computer_3d_tomography_of_tee.webp",
-        "alt": "Digital orthodontic planning and imaging",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Technology"
-        }
-      },
-      "video": {
-        "type": "embedded",
-        "src": ""
-      },
-      "buttons": [],
-      "component_options": {
-        "hash": "technology",
-        "component_padding": "half",
-        "component_margins": "none",
-        "hide_component": false
-      },
-      "reverse": false,
-      "has_buttons": false,
-      "has_accordion": true,
       "is_dynamic": false,
       "use_video": false,
       "large_image": false,
@@ -2008,9 +2105,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/145673624_Happy_family_with_kids.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/145673624_Happy_family_with_kids.webp",
-        "alt": "Family enjoying time together before orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/347651414_Modern_family_visiting_doctor_in_hospital.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/347651414_Modern_family_visiting_doctor_in_hospital.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -2029,15 +2126,15 @@
     },
     {
       "seo": {
-        "page_title": "Treatments | Eagan Orthodontics",
-        "page_description": "Explore orthodontic treatments for children, teens, and adults, including braces, clear aligners, orthognathic surgery, retainers, and digital planning.",
-        "page_keywords": "orthodontic treatments, braces, clear aligners, retainers, orthognathic surgery, early orthodontics",
+        "page_title": "Treatments | Orthodontic Care",
+        "page_description": "Explore orthodontic services including metal and ceramic braces, clear aligners, palatal expanders, retainers and more for all ages.",
+        "page_keywords": "orthodontics, braces, clear aligners, retainers, palatal expander, lingual braces, Damon system",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Treatments | Eagan Orthodontics",
-            "description": "Explore orthodontic treatments for children, teens, and adults, including braces, clear aligners, orthognathic surgery, retainers, and digital planning.",
-            "image": "https://www.eaganorthodontics.com/resourcefiles/other/page-bg-1.jpg"
+            "title": "Treatments | Orthodontic Care",
+            "description": "Explore orthodontic services including metal and ceramic braces, clear aligners, palatal expanders, retainers and more for all ages.",
+            "image": "https://ik.imagekit.io/rooster/tr:w-600,h-600,f-jpg,q-80,fo-auto/35514118_Smiling_family.jpg"
           }
         }
       }
@@ -2058,14 +2155,14 @@
         "hash": "#form",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
+        "icon": "phone",
         "color": "primary"
       },
       "media_type": "image",
       "image": {
         "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/600329009_Man_making_an_appointment_with_medical_staffs_at_r.jpg",
         "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/600329009_Man_making_an_appointment_with_medical_staffs_at_r.webp",
-        "alt": "Close-up of braces on a patient smiling at Eagan Orthodontics",
+        "alt": "Close-up of braces on teeth in a bright, modern orthodontic office",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -2073,9 +2170,7 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Contact Hero"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "src": "",
@@ -2112,14 +2207,14 @@
     },
     {
       "seo": {
-        "page_title": "Contact Eagan Orthodontics | Southfield Orthodontist",
-        "page_description": "Contact Eagan Orthodontics in Southfield for appointments, maps, and patient forms. Call (248) 569-8770 or visit our Map & Directions page for hours and driving",
+        "page_title": "Contact Eagan Orthodontics, P.C. | Southfield Orthodontist",
+        "page_description": "Contact Eagan Orthodontics in Southfield, MI. Call (248) 569-8770 or email info@eaganorthodontics.com to request appointments, find maps, or access patientforms",
         "page_keywords": "Eagan Orthodontics contact, Southfield orthodontist, orthodontic appointment, office hours, patient forms",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
-            "title": "Contact Eagan Orthodontics | Southfield Orthodontist",
-            "description": "Contact Eagan Orthodontics in Southfield for appointments, maps, and patient forms. Call (248) 569-8770 or visit our Map & Directions page for hours and driving",
+            "title": "Contact Eagan Orthodontics, P.C. | Southfield Orthodontist",
+            "description": "Contact Eagan Orthodontics in Southfield, MI. Call (248) 569-8770 or email info@eaganorthodontics.com to request appointments, find maps, or access patientforms",
             "image": "https://www.eaganorthodontics.com/ResourceFiles/other/h-braces143c4.jpg"
           }
         }
@@ -2141,14 +2236,14 @@
         "hash": "#form",
         "external": false,
         "include_icon": false,
-        "icon": "pencil",
+        "icon": "phone",
         "color": "primary"
       },
       "media_type": "image",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/627101214_Dentist_portrait_and_man_with_arms_crossed_for_hea.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/627101214_Dentist_portrait_and_man_with_arms_crossed_for_hea.webp",
-        "alt": "Bright orthodontic office background with welcoming reception and modern decor",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/hero/1269341883_Wooden_question_mark_leaning_against_wall_in_room.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/hero/1269341883_Wooden_question_mark_leaning_against_wall_in_room.webp",
+        "alt": "Patient smiling with orthodontic braces in our Emeryville office",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -2156,9 +2251,7 @@
         "objectPosition": "",
         "forceAlt": "",
         "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "FAQ Hero"
-        }
+        "image_selection_hints": null
       },
       "video": {
         "src": "",
@@ -2169,28 +2262,28 @@
     },
     {
       "acf_fc_layout": "accordion",
-      "title": "FAQ",
+      "title": "FAQ, Foods & Emergencies",
       "paragraphs": [
         {
           "has_heading": false,
           "heading": "",
-          "text": "Find clear answers to common questions about treatment options, scheduling, insurance and home care so you can feel confident before your first visit."
+          "text": "Find answers to common questions about braces, foods to avoid, emergency care, first-visit items, and patient forms at Eagan Orthodontics."
         }
       ],
       "accordion": [
         {
-          "header": "Treatment options",
+          "header": "Are there any foods I cannot eat while I have braces?",
           "paragraphs": [
             {
-              "text": "We offer a range of treatments including traditional metal braces, clear ceramic braces, the Damon® self-ligating system, lingual braces, and clear aligner options. Your initial exam will cover recommended procedures, expected treatment length, and whether extractions or additional appliances are needed."
+              "text": "Yes. Once treatment begins, we will explain our complete instructions and provide you with a comprehensive list of foods to avoid. Some of those foods include ice, hard candy, raw vegetables and all sticky foods (i.e. caramel and taffy). You can avoid most repair appointments by carefully following our instructions!"
             }
           ],
-          "has_media": true,
+          "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/35296678_Young_female_patient_takes_a_dental_attendance.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/35296678_Young_female_patient_takes_a_dental_attendance.webp",
-            "alt": "Close-up of Damon bracket on tooth demonstrating self-ligating orthodontic hardware",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/84442233_Father_With_Daughter_At_Reception_Of_Dentists_Surg.webp",
+            "alt": "Happy family portrait at the orthodontic office",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -2198,9 +2291,7 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Treatments Hero"
-            }
+            "image_selection_hints": null
           },
           "video": {
             "type": "embedded",
@@ -2208,18 +2299,18 @@
           }
         },
         {
-          "header": "Insurance & payments",
+          "header": "Which sticky, hard, or sugary foods should I avoid?",
           "paragraphs": [
             {
-              "text": "Bring your orthodontic insurance card to your first visit so we can estimate benefits and submission requirements. Our team will review coverage, explain estimated patient responsibility, and discuss flexible monthly payment options when available."
+              "text": "Avoid hard foods, sticky foods, and items high in sugar. Examples from our guidance include gum, licorice, toffee, caramels, ice, nuts, hard taco shells, bagels, chips, uncut apples and carrots, and hard candies. Minimize sodas and sweetened drinks to reduce the risk of decay."
             }
           ],
-          "has_media": true,
+          "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/348192383_Cost_of_healthcare_Piggy_bank_money_box_with_a_med.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/348192383_Cost_of_healthcare_Piggy_bank_money_box_with_a_med.webp",
-            "alt": "Clear ceramic braces on teeth to illustrate discreet orthodontic options",
+            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/555079492_Crying_tired_sad_woman_suffers_from_painful_tootha.jpg",
+            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/555079492_Crying_tired_sad_woman_suffers_from_painful_tootha.webp",
+            "alt": "Couple enjoying time together in a bright clinic",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -2227,9 +2318,7 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Flexible Payments"
-            }
+            "image_selection_hints": null
           },
           "video": {
             "type": "embedded",
@@ -2237,18 +2326,18 @@
           }
         },
         {
-          "header": "Appointments & scheduling",
+          "header": "What should I do if a bracket or wire breaks or pokes?",
           "paragraphs": [
             {
-              "text": "Most patients in braces are seen every 5–10 weeks for adjustments. We offer a complimentary initial exam and may take diagnostic records at that visit. For new or virtual screenings you can use the practice’s online Start Now virtual appointment: https://www.orthoscreening.com/screening/start?code=895JE5&sid=mljjr8eb-be444045-5917-awc6zmjgn&puid=be444045-5917-4fbd-8f22-88dd8ca5174f&step=0. For general appointment requests, use the contact form on the site."
+              "text": "Many problems are minor and manageable at home. If a band or bracket is still attached to the wire, leave it in place and don’t attach elastics to it. Cover irritating metal with orthodontic wax. For a poking wire, try moving it with a pencil eraser or Q‑Tip; if it won’t move, call the office. Save any loose parts and we’ll schedule a repair appointment."
             }
           ],
-          "has_media": true,
+          "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/285911421_Client_of_private_dentistry_smiling_while_singing.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/285911421_Client_of_private_dentistry_smiling_while_singing.webp",
-            "alt": "Modern orthodontic clinic reception area ready to welcome new patients",
+            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.jpg",
+            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-about-community.webp",
+            "alt": "Collaborative team moment in clinic",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -2256,9 +2345,7 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Initial Visit"
-            }
+            "image_selection_hints": null
           },
           "video": {
             "type": "embedded",
@@ -2266,18 +2353,18 @@
           }
         },
         {
-          "header": "Care instructions & home care",
+          "header": "What should I bring to my first appointment?",
           "paragraphs": [
             {
-              "text": "Protect your treatment by avoiding hard, crunchy or sticky foods like ice, hard candy, raw hard vegetables, caramel and taffy. Brush after meals and at bedtime, floss daily (use floss threaders if needed), and follow instructions for rinses or special products. After treatment, retainers (Hawley, clear aligner-type, or fixed bonded retainers) are used to maintain your smile; follow wearing and cleaning guidance to avoid damage."
+              "text": "Bring any panoramic X‑ray taken within the past six months and your orthodontic insurance card if you have coverage. At the first visit we’ll review your history, evaluate your bite, and discuss treatment options and estimated costs."
             }
           ],
-          "has_media": true,
+          "has_media": false,
           "media_type": "image",
           "image": {
-            "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/299905393_Pretty_woman_looking_at_dentist_with_trust.jpg",
-            "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/299905393_Pretty_woman_looking_at_dentist_with_trust.webp",
-            "alt": "Three types of orthodontic retainers displayed: Hawley, clear aligner-style, and fixed lingual bonded retainer",
+            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.jpg",
+            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-faq-hero.webp",
+            "alt": "Clinician reviewing treatment options with a patient",
             "aria_hidden": false,
             "bgColor": "",
             "imageBackground": false,
@@ -2285,9 +2372,34 @@
             "objectPosition": "",
             "forceAlt": "",
             "loading_mask": "",
-            "image_selection_hints": {
-              "context_category": "Retention"
+            "image_selection_hints": null
+          },
+          "video": {
+            "type": "embedded",
+            "src": ""
+          }
+        },
+        {
+          "header": "Where can I find patient forms and authorizations?",
+          "paragraphs": [
+            {
+              "text": "Patient forms include an authorization confirming the accuracy of your information, consent to release records for insurance claims, and agreement to financial responsibility for any amounts not covered by insurance. You can complete forms before your visit and start a virtual appointment here: https://www.orthoscreening.com/screening/start?code=895JE5&sid=mljjr8eb-be444045-5917-awc6zmjgn&puid=be444045-5917-4fbd-8f22-88dd8ca5174f&step=0"
             }
+          ],
+          "has_media": false,
+          "media_type": "image",
+          "image": {
+            "src": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-spotlight.jpg",
+            "webp": "https://d25xczrsvvsqdg.cloudfront.net/cueorthodontics-home-spotlight.webp",
+            "alt": "Mother and daughter smiling together at clinic",
+            "aria_hidden": false,
+            "bgColor": "",
+            "imageBackground": false,
+            "addLoader": false,
+            "objectPosition": "",
+            "forceAlt": "",
+            "loading_mask": "",
+            "image_selection_hints": null
           },
           "video": {
             "type": "embedded",
@@ -2333,9 +2445,9 @@
       "add_texture": false,
       "linear_gradient": "",
       "image": {
-        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.jpg",
-        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/158720629_Dentist_female_posing_at_consultation.webp",
-        "alt": "Family enjoying time together before orthodontic treatment",
+        "src": "https://d1tbkv3r7iprho.cloudfront.net/standard/439148846_Hispanic_teenager_girl_with_dental_braces_wearing.jpg",
+        "webp": "https://d1tbkv3r7iprho.cloudfront.net/standard/439148846_Hispanic_teenager_girl_with_dental_braces_wearing.webp",
+        "alt": "Enjoying time together",
         "aria_hidden": false,
         "bgColor": "",
         "imageBackground": false,
@@ -2355,14 +2467,14 @@
     {
       "seo": {
         "page_title": "FAQ | Eagan Orthodontics",
-        "page_description": "Find answers to common orthodontic questions about treatments, scheduling, payments, and home care. Use our virtual screening or contact form to request an exam",
-        "page_keywords": "orthodontics, braces, retainers, FAQ, virtual screening, Eagan Orthodontics",
+        "page_description": "Answers about braces, foods to avoid, emergency care, first-visit details, and patient forms at Eagan Orthodontics.",
+        "page_keywords": "Eagan Orthodontics, orthodontics, braces, foods to avoid, emergencies, patient forms",
         "additional_settings": false,
         "social_meta": {
           "og_meta": {
             "title": "FAQ | Eagan Orthodontics",
-            "description": "Find answers to common orthodontic questions about treatments, scheduling, payments, and home care.",
-            "image": "https://www.eaganorthodontics.com/resourcefiles/other/page-bg-1.jpg"
+            "description": "Answers about braces, foods to avoid, emergency care, first-visit details, and patient forms at Eagan Orthodontics.",
+            "image": "https://d25xczrsvvsqdg.cloudfront.net/andersonbracesmn-contact-hero.jpg"
           }
         }
       }
