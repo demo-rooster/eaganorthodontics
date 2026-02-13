@@ -12,7 +12,7 @@
     {
       "title": "",
       "address": {
-        "street": "17600 W. Twelve Mile Rd.",
+        "street": "17600 W. 12 Mile Rd.",
         "suite": "Suite 4",
         "city_state": "Southfield, MI 48076",
         "coordinates": {
@@ -27,31 +27,31 @@
       "email": "info@eaganorthodontics.com",
       "hours": [
         {
-          "day": "Monday",
-          "time": "7:30 a.m. - 6:00 p.m."
+          "day": "Mon",
+          "time": "7:30 a.m. \t6:00 p.m."
         },
         {
-          "day": "Tuesday",
-          "time": "7:30 a.m. - 6:00 p.m."
+          "day": "Tue",
+          "time": "7:30 a.m. \t6:00 p.m."
         },
         {
-          "day": "Wednesday",
-          "time": "7:30 a.m. - 5:30 p.m."
+          "day": "Wed",
+          "time": "7:30 a.m. \t5:30 p.m."
         },
         {
-          "day": "Thursday",
-          "time": "8:00 a.m. - 2:00 p.m."
+          "day": "Thu",
+          "time": "8:00 a.m. \t2:00 p.m."
         },
         {
-          "day": "Friday",
+          "day": "Fri",
           "time": "Closed"
         }
       ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=17600+W.+Twelve+Mile+Rd.+Suite+4+Southfield+MI+48076",
+        "href": "https://www.google.com/maps/search/?api=1&query=17600+W.+12+Mile+Rd.+Suite+4+Southfield+MI+48076",
         "label": "Get Directions"
       },
-      "special_note": "Open one Saturday per month (except July & August) by appointment."
+      "special_note": "Open one Saturday per month for appointments (contact office to schedule)."
     }
   ],
   "typography": [
@@ -71,10 +71,10 @@
     "content_alignment": "right",
     "links": [
       {
-        "icon": "envelope",
-        "text": "17600 W. Twelve Mile Rd., Suite 4, Southfield, MI 48076",
-        "href": "https://www.google.com/maps/search/?api=1&query=17600+W.+Twelve+Mile+Rd.+Suite+4+Southfield+MI+48076",
-        "label": "View 17600 W. Twelve Mile Rd., Suite 4, Southfield, MI 48076 on google maps",
+        "icon": "tooth-two-v2",
+        "text": "17600 W. 12 Mile Rd., Suite 4, Southfield, MI 48076",
+        "href": "https://www.google.com/maps/search/?api=1&query=17600+W.+12+Mile+Rd.+Suite+4+Southfield+MI+48076",
+        "label": "View 17600 W. 12 Mile Rd., Suite 4, Southfield, MI 48076 on Google Maps",
         "new_window": true
       },
       {
@@ -87,12 +87,12 @@
     ],
     "announcement": {
       "icon": "tooth-two-v2",
-      "label": "",
-      "text": "",
-      "mobile_text": "",
+      "label": "COVID-19 update",
+      "text": "Learn about our safety measures and appointment procedures during COVID-19.",
+      "mobile_text": "COVID-19 update",
       "modal": {
-        "title": "",
-        "text": ""
+        "title": "COVID-19 Update",
+        "text": "<p>We continue to follow CDC guidance and local regulations to keep patients and staff safe. If you have questions about office procedures, pre-appointment screening, or virtual appointment options, please call the office or start a virtual appointment.</p>"
       }
     }
   },
@@ -135,12 +135,12 @@
   },
   "enable_popup": false,
   "popup": {
-    "title": "",
+    "title": "Welcome to Eagan Orthodontics",
     "text": "",
     "image": {
-      "src": "",
+      "src": "https://www.eaganorthodontics.com/resourcefiles/other/eaganorthodontics-logo2ede.png",
       "webp": "",
-      "alt": "",
+      "alt": "Eagan Orthodontics logo",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
@@ -148,9 +148,7 @@
       "objectPosition": "",
       "forceAlt": "",
       "loading_mask": "",
-      "image_selection_hints": {
-        "context_category": "Contact Hero"
-      }
+      "image_selection_hints": null
     }
   }
 }
